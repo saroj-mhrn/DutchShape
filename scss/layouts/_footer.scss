@@ -1,0 +1,32 @@
+#footer{
+	font-size: rem-calc(14px);
+	color: #555;
+	padding: 37px 0;
+
+	a{
+		color: #555;
+
+		&:hover{
+			color: $alert-color;
+		}
+	}
+
+	.logo{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 10px;
+
+		@media #{$large-up}{
+			margin-left: 20px;
+			margin-right: 17px;
+		}
+	}
+
+	.copyright{
+		float: left;
+		
+		@media #{$large-up}{
+			margin-left: 28px;
+		}
+	}
+}

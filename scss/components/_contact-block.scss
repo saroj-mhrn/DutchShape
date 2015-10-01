@@ -1,0 +1,110 @@
+.contact-block{
+	padding: 50px 0 0;
+	background: url(../images/bg-contact.jpg) no-repeat 50% 100%;
+
+	address{
+		font-style: normal;
+	}
+
+	.top{
+		display: block;
+		margin-bottom: 24px;
+	}
+
+	.columns{
+		position: relative;
+		z-index: 3;
+	}
+
+	a{
+		color: #2c2c2c;
+	}
+
+	.title-h2{
+		margin-bottom: 18px;
+	}
+
+	.text-wrap{
+		padding: 20px 0 13px;
+		margin-bottom: 30px;
+		position: relative;
+
+		@media #{$medium-up} {
+			padding-top: 16px;
+			margin-bottom: 0;
+		}
+
+		@media #{$large-up} {
+			padding-top: 108px;
+		}
+	}
+
+	.iso-certified{
+		position: absolute;
+		right: 13px;
+		bottom: 9px;
+
+		@media #{$large-up} {
+			bottom:0;
+		}
+	}
+
+	.box-route{
+		position: relative;
+		background: url(../images/map-placeholder.jpg) no-repeat;
+		background-size: cover;
+		overflow: hidden;
+
+		@media #{$medium-up} {
+			margin: -139px 0 0 21px;
+		}
+
+		.head{
+			position: relative;
+			padding: 44px 56px 14px;
+			background: #1f3260;
+			z-index: 1;
+
+			&:after{
+				content:'';
+				width: 100%;
+				height: 90px;
+				background: #1f3260;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				z-index: -1;
+				transform: rotate(-5deg);
+				transform-origin: 100% 100% 0;
+			}
+		}
+
+		.body{
+			padding: 82px 30px 36px;
+			
+			@media #{$large-up} {
+				padding: 134px 60px 64px;
+			}
+		}
+
+		.title-h2{
+			color: #fff;
+			margin: 0 0 61px 19px;
+
+			&:before {
+				display: block;
+			}
+		}
+	}
+
+	.button{
+		display: block;
+		min-width: 0;
+		max-width: 240px;
+		margin: 0 auto;
+
+		@media #{$large-up} {
+			max-width: none;
+		}
+	}
+}
