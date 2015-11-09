@@ -1,44 +1,44 @@
 .work-for{
-	position: relative;
-	z-index: 1;
-	padding: 21px 0;
-	
-	&:after{
-		content: '';
-		position: absolute;
-		left: -60px;
-		top: 0;
-		right: -60px;
-		height: 553px;
-		z-index: -1;
-		transform: rotate(-5deg);
-		margin-top: -86px;
-		background: #ebf0f6 url(../images/img07.jpg) no-repeat 50% 50%;
-	}
+  position: relative;
+  z-index: 1;
+  padding: 21px 0;
+  
+  &:after{
+    content: '';
+    position: absolute;
+    left: -60px;
+    top: 0;
+    right: -60px;
+    height: 553px;
+    z-index: -1;
+    transform: rotate(-5deg);
+    margin-top: -86px;
+    background: #ebf0f6 url(../images/img07.jpg) no-repeat 50% 50%;
+  }
 
-	h2{
-		text-transform: uppercase;
-		color: #2c2c2c;
-		margin-bottom: 47px;
-	}
+  h2{
+    text-transform: uppercase;
+    color: #2c2c2c;
+    margin-bottom: 47px;
+  }
 
-	.subtitle{
-		display: block;
-		font: 500 17px/24px $exo;
-		text-transform: uppercase;
-		color: #2c2c2c;
-		margin-bottom: 33px;
-	}
+  .subtitle{
+    display: block;
+    font: 500 17px/24px $exo;
+    text-transform: uppercase;
+    color: #2c2c2c;
+    margin-bottom: 33px;
+  }
 
-	p{
-		margin-bottom: 62px;
-	}
+  p{
+    margin-bottom: 62px;
+  }
 
-	.btn-wrap{
-		padding: 0 27px;
-		
-		@include mq($until:tablet){
-			text-align: center !important;
-		}
-	}
+  .btn-wrap{
+    padding: 0 27px;
+    
+    @include mq($until:tablet){
+      text-align: center !important;
+    }
+  }
 }
